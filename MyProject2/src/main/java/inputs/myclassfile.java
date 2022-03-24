@@ -14,7 +14,7 @@ public class myclassfile {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Karthika\\eclipse-workspace\\MyProject1\\src\\main\\resources\\chromedriver.exe");
 		//FileInputStream fis = new FileInputStream("C:\\Users\\Karthika\\eclipse-workspace\\MyProject1\\src\\main\\java\\inputs\\inputs.java");
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://www.amazon.com/");
+		driver.get("https://www.flipcart.com/");
 		//driver.quit();
 		Thread.sleep(2000);
 		WebElement searchbox = driver.findElement(By.id("twotabsearchtextbox"));
